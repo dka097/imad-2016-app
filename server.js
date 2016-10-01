@@ -6,7 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleone  = {
+var articles = {
+articleone :{
     title: "APM Grocery shop",
     heading: "APM GROCERY SHOP",
     content:
@@ -23,7 +24,26 @@ var articleone  = {
             All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
         </p>`
     
-     };
+     },
+     articletwo:{
+         title: "IT'S DKA SELF",
+    heading: "APM GROCERY SHOP",
+    
+    content:
+       ` <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>
+        <p>
+            the shop is located at kurungulam village of tvr dist,pin 609608
+        </p>
+        <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>
+        <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>`}
+     articlethree:{}, 
+};
 function createtemplete (data) {
     var title = data.title;
     var heading = data.heading;
