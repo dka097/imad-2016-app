@@ -57,7 +57,7 @@ var htmltemplete=`<html>
 </html>
 
 `;
- return htmltempletes;
+ return htmltemplete;
 }
 
 
