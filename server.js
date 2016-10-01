@@ -32,7 +32,7 @@ function createtemplete (data) {
 var htmltemplete=`<html>
     <head>
       <title>
-         {title}
+         ${title}
       </title>
       <meta name="viewport" content="width-device-width, initial-scale-one">
       <link href="/ui/style.css" rel="stylesheet" />
