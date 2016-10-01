@@ -32,21 +32,26 @@ function createtemplete (data) {
 var htmltemplete=`<html>
     <head>
       <title>
-      ${title}
+         {title}
       </title>
       <meta name="viewport" content="width-device-width, initial-scale-one">
       <link href="/ui/style.css" rel="stylesheet" />
     </head>  
         <body bgcolr = #aabbcc  text = #ff0000>
-        <div class= "container">
+            
+        <div class = "container">
+            <div>
         <a href="/">Home></a>
+            </div>
         </div>
         
-        ${heading}
+        <h1>
+           ${heading}
+        </h1>
        
         <div>
-          ${content}
-               
+            ${content}
+            
         </div>
     </body>
 </html>
