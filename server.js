@@ -66,7 +66,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-   res.send(createtemplete(content));
+   res.send(createtemplete(articleone));
 }); 
 
 app.get('/article-two', function (req, res) {
