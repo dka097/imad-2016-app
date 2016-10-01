@@ -6,8 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var content = {
-    title: "APm Grocery shop",
+var articleone  = {
+    title: "APM Grocery shop",
     heading: "APM GROCERY SHOP",
     content:
        ` <p>
