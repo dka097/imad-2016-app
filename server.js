@@ -9,12 +9,49 @@ app.use(morgan('combined'));
 var content = {
     title: "APm Grocery shop",
     heading: "APM GROCERY SHOP",
+    content:
+       ` <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>
+        <p>
+            the shop is located at kurungulam village of tvr dist,pin 609608
+        </p>
+        <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>
+        <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>`
     
+     };
+function createtemplete (data) {
+    var title = data.title;
+    var heading = data.heading;
+    var content = data.content;
     
-};
+var htmltemplete=`<html>
+    <head>
+      ${title}
+      <meta name="viewport" content="width-device-width, initial-scale-one">
+      <link href="/ui/style.css" rel="stylesheet" />
+    </head>  
+        <body bgcolr = #aabbcc  text = #ff0000>
+        <div>
+        <a href="/">Home></a>
+        </div>
+        <hr>
+        ${heading}
+       
+        <div>
+          ${content}
+               
+        </div>
+    </body>
+</html>
 
-
-
+`;
+ return htmltempletes;
+}
 
 
 app.get('/', function (req, res) {
@@ -22,7 +59,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'win.html'));
+   res.send(createtemplete(content));
 }); 
 
 app.get('/article-two', function (req, res) {
