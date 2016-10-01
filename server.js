@@ -31,15 +31,17 @@ function createtemplete (data) {
     
 var htmltemplete=`<html>
     <head>
+      <title>
       ${title}
+      </title>
       <meta name="viewport" content="width-device-width, initial-scale-one">
       <link href="/ui/style.css" rel="stylesheet" />
     </head>  
         <body bgcolr = #aabbcc  text = #ff0000>
-        <div>
+        <div class= "container">
         <a href="/">Home></a>
         </div>
-        <hr>
+        
         ${heading}
        
         <div>
