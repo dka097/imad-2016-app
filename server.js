@@ -27,21 +27,21 @@ var articles = {
      },
      'article-two':{
          title: "IT'S DKA SELF",
-         heading: "APM GROCERY SHOP",
+         heading: "Dk Aswin",
     
          content:
-       ` <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            the shop is located at kurungulam village of tvr dist,pin 609608
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>`},
+       `<p>
+                HE ALSO A SARGENT OFFICER OF 8 BATTALION NCC ARMY WING.....
+            </p>
+            <p>
+                HE is HOMED at kurungulam village of tvr dist,pin 609608
+            </p>
+            <p>
+                HE IS DREAM ALSO BECOME JOIN DEFENCE FORCE.....
+            </p>
+            <p>
+                AND DREAM ABOUT MARY A SWEET GIRL.....
+            </p>`},
         'article-three':{
          title: "DKAN GROUP OF COMPANY",
          heading: "dkan incredible india",
