@@ -27,9 +27,26 @@ articleone :{
      },
      articletwo:{
          title: "IT'S DKA SELF",
-    heading: "APM GROCERY SHOP",
+         heading: "APM GROCERY SHOP",
     
-    content:
+         content:
+       ` <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>
+        <p>
+            the shop is located at kurungulam village of tvr dist,pin 609608
+        </p>
+        <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>
+        <p>
+            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+        </p>`},
+        articlethree:{
+         title: "IT'S DKA SELF",
+         heading: "APM GROCERY SHOP",
+    
+         content:
        ` <p>
             All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
         </p>
@@ -42,22 +59,7 @@ articleone :{
         <p>
             All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
         </p>`}
-     articlethree:{ title: "IT'S DKA SELF",
-    heading: "APM GROCERY SHOP",
     
-    content:
-       ` <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            the shop is located at kurungulam village of tvr dist,pin 609608
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>`}}, 
 };
 function createtemplete (data) {
     var title = data.title;
