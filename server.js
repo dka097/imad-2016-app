@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles = {
-articleone :{
+'article-one' :{
     title: "APM Grocery shop",
     heading: "APM GROCERY SHOP",
     content:
@@ -25,7 +25,7 @@ articleone :{
         </p>`
     
      },
-     articletwo:{
+     'article-two':{
          title: "IT'S DKA SELF",
          heading: "APM GROCERY SHOP",
     
@@ -42,23 +42,23 @@ articleone :{
         <p>
             All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
         </p>`},
-        articlethree:{
-         title: "IT'S DKA SELF",
-         heading: "APM GROCERY SHOP",
+        'article-three':{
+         title: "DKAN GROUP OF COMPANY",
+         heading: "dkan incredible india",
     
          content:
-       ` <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            the shop is located at kurungulam village of tvr dist,pin 609608
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>`}
+       `  <p>
+                All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+            </p>
+            <p>
+                the shop is located at kurungulam village of tvr dist,pin 609608
+            </p>
+            <p>
+                All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+            </p>
+            <p>
+                All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
+            </p>`},
     
 };
 function createtemplete (data) {
@@ -102,17 +102,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function (req, res) {
-   res.send(createtemplete(articleone));
+app.get('/:articleName', function (req, res) {
+    //articleName = article-one
+    //articles[articleName] = {} content object for article one
+    var articleName = req.params.articlename;
+   res.send(createtemplete(article[articleName]));
 }); 
 
-app.get('/article-two', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'win-two.html'));
-});
 
-app.get('/article-three', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'win-three.html'));
-});    
+   
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
