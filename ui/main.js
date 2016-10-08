@@ -9,10 +9,10 @@ element.innerHTML = 'new value';
 var element = document.getElementById('madi');
 var marginleft = 0;
 function moveRight () {
-    marginleft - margin + 10;
-    img.style.marginleft - marginlefft + 'px';
+    marginleft = margin + 10;
+    img.style.marginleft = marginlefft + 'px';
 }
-img.oncliick = function () {
+img.onclick = function () {
     var interval = setInterval(moveRight, 100);
     
 };  
