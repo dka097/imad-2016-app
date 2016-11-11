@@ -11,18 +11,40 @@ var articles = {
     title: "APM Grocery shop",
     heading: "APM GROCERY SHOP",
     content:
-       ` <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            the shop is located at kurungulam village of tvr dist,pin 609608
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>
-        <p>
-            All grocerys,shop items,stationary,cool drinks,recharge cards available here.....
-        </p>`
+       `<body background="image/IMG_60327673164980.jpeg" >
+
+<center>
+<body>
+      <br>
+      <center> <h1>APM GROCERY SHOP<h1> </center> <a herf="hd.html"><img src="image/F_icon.svg.png" width="60px" height="60px" align="right"></a>
+      <img src="image/grocery-shopping-feature.jpg" width="350px" height="115px" align="left"><br>
+      &nbsp; <br>
+     <hr>
+     <h3><a href="hd.html">HOME</a> | <a href="hd.html">SERVICES</a> | <a href="hd.html">HOME DELIVERY</a> | <a href="hd.html">CONTACT US</a> | <a href="hd.html">ABOUT US</a> | <a href="hd.html">PRIVACY POLICY</a><h3>
+     <hr>
+     <marquee><h4>Welcome To APM Grocery</h4> <h3>5% Cash Back On Every Purchasing</h3></marquee>
+
+      <img src="image/biz_01Groceries04281_0.jpg" width="300px" height="180px">
+      <img src="image/vegetables_625x350_81425560601.jpg" width="300px" height="180px">
+      <img src="image/grocery_main_small.jpg" width="300px" height="180px">
+     <img src="image/biz_01Groceries04281_0.jpg" width="300px" height="180px">
+      <img src="image/grocery_main_small.jpg" width="300px" height="180px">
+     <img src="image/vegetables_625x350_81425560601.jpg" width="300px" height="180px">
+     <img src="image/vegetables_625x350_81425560601.jpg" width="300px" height="180px">
+     <img src="image/vegetables_625x350_81425560601.jpg" width="300px" height="180px">
+     <br>
+      <br>
+      <br>
+  <br>
+  <br>
+  <br>
+
+      <hr>
+      Copyright & copy 2016 All Right Reserved: DKAN.in
+      <hr>
+
+</body>
+</center>`
     
      },
      'article-two':{
