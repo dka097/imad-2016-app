@@ -20,7 +20,7 @@ var articles = {
       <img src="image/grocery-shopping-feature.jpg" width="350px" height="115px" align="left"><br>
       &nbsp; <br>
      <hr>
-     <h3><a href="hd.html">HOME</a> | <a href="hd.html">SERVICES</a> | <a href="hd.html">HOME DELIVERY</a> | <a href="hd.html">CONTACT US</a> | <a href="hd.html">ABOUT US</a> | <a href="hd.html">PRIVACY POLICY</a><h3>
+     <h3><a href="win.html">HOME</a> | <a href="hd.html">SERVICES</a> | <a href="hd.html">HOME DELIVERY</a> | <a href="hd.html">CONTACT US</a> | <a href="hd.html">ABOUT US</a> | <a href="hd.html">PRIVACY POLICY</a><h3>
      <hr>
      <marquee><h4>Welcome To APM Grocery</h4> <h3>5% Cash Back On Every Purchasing</h3></marquee>
 
