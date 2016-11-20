@@ -53,6 +53,20 @@ var articles = {
 <html>
   <head>
       <title> type note </title>
+      <style>
+          ul{
+              list-style: none;
+              padding:10px;
+              margin:10px;
+              width:40%;
+              float:left;
+              border:1px solid #333;
+              background:000;;
+              
+          }
+          
+      </style>
+      
   </head>
   <body>
       <h1>type note</h1>
@@ -71,6 +85,7 @@ var articles = {
   </body>
 
 </html>
+
 `,
         'article-three':{
          title: "DKAN GROUP OF COMPANY",
