@@ -47,23 +47,31 @@ var articles = {
 </center>`
     
      },
-     'article-two':{
-         title: "IT'S DKA SELF",
-         heading: "Dk Aswin",
-    
-         content:
-       `<p>
-                HE ALSO A SARGENT OFFICER OF 8 BATTALION NCC ARMY WING.....
-            </p>
-            <p>
-                HE is HOMED at kurungulam village of tvr dist,pin 609608
-            </p>
-            <p>
-                HE IS DREAM ALSO BECOME JOIN DEFENCE FORCE.....
-            </p>
-            <p>
-                AND DREAM ABOUT MARY A SWEET GIRL.....
-            </p>`},
+     'article-two':
+        
+       `<!doctype html>
+<html>
+  <head>
+      <title> type note </title>
+  </head>
+  <body>
+      <h1>type note</h1>
+      <input type="text" id="input"/>
+      <button id="btn">ADD</button>
+      
+      <hr/>
+      
+      <ul id="type note">
+          <li>type note</li>
+      </ul>
+      <ul id="done">
+          <li>done</li>
+      </ul>
+      
+  </body>
+
+</html>
+`,
         'article-three':{
          title: "DKAN GROUP OF COMPANY",
          heading: "dkan incredible india",
